@@ -9,7 +9,7 @@
 * **Purpose:**
     * To establish familiarity with Test-Driven-Development (TDD) practices.
 * **Getting context:**
-	* Click [here](https://github.com/Zipcoder/TDD-AnimalFactory/blob/master/README-TDDPatterns.md) to gain more familiarity with TDD-structured programming.
+	* Click [here](https://github.com/ioeducation/tdd-animal-lab01/blob/master/README-TDDPatterns.md) to gain more familiarity with TDD-structured programming.
 
 
 ### CatTest
