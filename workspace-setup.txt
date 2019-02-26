@@ -1,3 +1,11 @@
 #!/bin/bash
-echo 'Script downloaded successfully'
- 
+echo 'Updating System'
+sudo apt-get update
+echo 'Update Complete'
+echo 'Install Java'
+sudo apt-get -y install default-jre
+echo 'Java is installed'
+echo 'Installing JDK'
+sudo apt-get -y install default-jdk
+echo 'JDK installed'
+echo 'installation complete'
