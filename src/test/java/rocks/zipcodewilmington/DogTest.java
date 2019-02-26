@@ -4,9 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import rocks.zipcodewilmington.animals.Dog;
 
-/**
- * @author leon on 4/19/18.
- */
 public class DogTest {
     // TODO - Create tests for `new Dog(String name, Date birthDate, Integer id)`
     // TODO - Create tests for `speak`

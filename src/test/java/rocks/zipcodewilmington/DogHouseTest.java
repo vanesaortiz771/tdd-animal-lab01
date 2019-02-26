@@ -7,9 +7,7 @@ import rocks.zipcodewilmington.animals.animal_storage.DogHouse;
 
 import java.util.Date;
 
-/**
- * @author leon on 4/19/18.
- */
+
 public class DogHouseTest {
     // TODO - Create tests for `void add(Dog dog)`
     // TODO - Create tests for `void remove(Integer id)`
