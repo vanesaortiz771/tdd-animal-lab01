@@ -11,6 +11,18 @@
 * **Getting context:**
 	* Click [here](https://github.com/ioeducation/tdd-animal-lab01/blob/master/README-TDDPatterns.md) to gain more familiarity with TDD-structured programming.
 
+### Cloud 9 Setup
+Create a new workspace called TDD-Animals
+
+Once you start your workspace is created in terminal run this script
+```
+sh -e workspace-setup.txt
+```
+
+To test if your code is working run this command 
+```
+mvn test
+```
 
 ### CatTest
 * Create tests for `void setName(String name)`
