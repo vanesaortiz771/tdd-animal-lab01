@@ -16,7 +16,29 @@ public class CatTest {
     // TODO - Create test to check Animal inheritance; google search `java instanceof keyword`
     // TODO - Create test to check Mammal inheritance; google search `java instanceof keyword`
 
-
+    @Test
+    public void speakTest(){
+        Cat cat =  new Cat("garfield", new Date(), 10);
+        String expected = "meow!";
+        String actual = cat.speak();
+        Assert.assertEquals("should be meow", expected, actual);
+    }
+    @Test
+    public void setNameTest(){
+        Cat garfield = new Cat("garfield", new Date(), 10);
+        garfield.setName("shazam");
+        String expected = "shazam";
+        String actual = garfield.name;
+        Assert.assertEquals("garfield.name should be equal to shazam", expected, actual);
+    }
+    @Test
+    public void eatTest(){
+        Cat cat = new Cat("garfield", new Date(), 10);
+        int expected =1;
+        cat.eat();
+        int actual =  cat.numberOfMealsEaten;
+        Assert.assertEquals("should be 1", expected, actual);
+    }
     @Test
     public void constructorTest() {
         // Given (cat data)
@@ -36,6 +58,13 @@ public class CatTest {
         Assert.assertEquals(givenName, retrievedName);
         Assert.assertEquals(givenBirthDate, retrievedBirthDate);
         Assert.assertEquals(givenId, retrievedId);
+    }
+    @Test
+    public void checkInstanceOfCat(){
+        Cat garfield = new Cat("garfield", new Date(), 10);
+        boolean expected =true; 
+        boolean actual = garfield instanceof Cat;
+        Assert.assertEquals("check if instance of cat", expected, actual);
     }
 
 }
